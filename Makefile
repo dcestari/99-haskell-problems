@@ -4,6 +4,9 @@
 02: solutions/NN02.hs problems/02.hs
 	runghc -isolutions problems/02.hs
 
+03: solutions/NN03.hs problems/03.hs
+	runghc -isolutions problems/03.hs
+
 clean:
 	rm solutions/*.o solutions/*.hi problems/*.o problems/*.hi &> /dev/null || true
 
